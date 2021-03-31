@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import Head from "next/head";
-import { Container, makeStyles } from "@material-ui/core";
+import { Container, useTheme, makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -15,6 +14,13 @@ const useStyles = makeStyles((theme) => ({
 
 const Layout = ({ children }) => {
   const classes = useStyles();
+  const theme = useTheme();
+
+  // provides access to theme object in development
+  const isWindowContext = typeof window !== "undefined";
+  if (isWindowContext && process.env.NODE_ENV === "development") {
+    window.theme = theme;
+  }
 
   return (
     <Container disableGutters maxWidth={false} className={classes.root}>
