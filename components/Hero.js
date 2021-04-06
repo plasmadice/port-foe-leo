@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, makeStyles, Grid } from "@material-ui/core";
+import { Container, makeStyles, Grid, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,9 +16,11 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.only("sm")]: {
       backgroundSize: "150%",
+      padding: "210px 0 480px",
     },
     [theme.breakpoints.only("xs")]: {
       backgroundSize: "200%",
+      padding: "210px 0 610px",
     },
   },
   heroContainer: {
@@ -35,8 +37,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heroText: {
-    fontSize: "4rem",
-    fontWeight: "500",
+    // fontSize: "4rem",
+    fontWeight: "800",
     width: "100%",
     overflowWrap: "break-word",
   },
@@ -75,7 +77,9 @@ const Hero = () => {
         className={classes.root}
       >
         <Grid item xs={12} className={classes.heroTextContainer}>
-          <h1 className={classes.heroText}>Front-end Developer</h1>
+          <Typography variant="h3" className={classes.heroText}>
+            Front-end Developer
+          </Typography>
           <h2 className={classes.heroSubtitle}>
             I make stuff, and love doing it.
           </h2>

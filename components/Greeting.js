@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme) => ({
   invertedContainer: {
     position: "relative",
     padding: "100px 0 220px",
-    top: "-1px",
+    top: "-2px",
     color: "white",
     textAlign: "center",
     background: "rgb(19,51,166)",
