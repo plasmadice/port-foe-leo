@@ -136,21 +136,18 @@ const Skills = () => {
   const classes = useStyles();
 
   useEffect(() => {
-    const list = skills.map((item, index) => {
-      // throws in a divider for every OTHER skill
-      if (index % 2 != 0) {
-        return (
-          <>
-            <Skill key={item.id} item={item} />
-            <Divider className={classes.bigDivider} />
-          </>
-        );
-      } else {
-        return <Skill key={item.id} item={item} />;
-      }
+    const list = skills.map((item) => {
+      return <Skill key={item.id} item={item} />;
     });
 
-    setSkillList(list);
+    const dividedList = [
+      list[0],
+      list[1],
+      <Divider key={4} className={classes.bigDivider} />,
+      list[2],
+    ];
+
+    setSkillList(dividedList);
   }, [skills]);
 
   return (

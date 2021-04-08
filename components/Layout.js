@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 import { Container, useTheme, makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -26,7 +27,7 @@ const Layout = ({ children }) => {
     <Container disableGutters maxWidth={false} className={classes.root}>
       <Header />
       {children}
-      <p>Footer</p>
+      <Footer />
     </Container>
   );
 };

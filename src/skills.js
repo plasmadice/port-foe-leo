@@ -38,6 +38,7 @@ const skills = [
       "NPM",
       "Heroku",
       "Netlify",
+      "Google Cloud Platform",
       "Kubernetes",
     ],
   },

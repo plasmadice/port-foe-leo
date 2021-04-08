@@ -4,7 +4,6 @@ import { Container, makeStyles, Grid, Typography } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   root: {
     minHeight: "100vh",
-    // marginTop: "20px",
     background: `no-repeat url('cityscape.svg')`,
     backgroundSize: "auto",
     backgroundPosition: "bottom",
@@ -23,21 +22,15 @@ const useStyles = makeStyles((theme) => ({
       padding: "210px 0 610px",
     },
   },
-  heroContainer: {
-    // position: "relative",
-    // width: "100vw",
-    // paddingTop: "20px",
-  },
+  heroContainer: {},
   heroTextContainer: {
     textAlign: "center",
-    margin: theme.spacing(4),
     width: "100%",
     [theme.breakpoints.down("md")]: {
       margin: 0,
     },
   },
   heroText: {
-    // fontSize: "4rem",
     fontWeight: "800",
     width: "100%",
     overflowWrap: "break-word",
@@ -58,11 +51,6 @@ const Hero = () => {
   const classes = useStyles();
 
   return (
-    // <div className={classes.root}>
-    //   <h1 className={classes.heroText}>Front-end Developer</h1>
-    //   <h2 className={classes.heroSubtitle}>I make stuff, and love doing it.</h2>
-    //   <div alt="Avatar of site creator" className={classes.heroIcon} />
-    // </div>
     <Container
       maxWidth={false}
       disableGutters
