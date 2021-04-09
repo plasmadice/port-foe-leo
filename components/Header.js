@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { makeStyles, Grid, Button, Container } from "@material-ui/core";
 import Link from "next/link";
 import Logo from "./logo";
-
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
@@ -33,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Header = () => {
+const Header = (props) => {
   const classes = useStyles();
 
   return (

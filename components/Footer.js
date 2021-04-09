@@ -59,7 +59,7 @@ const Footer = () => {
               “Life before death, strength before weakness, journey before
               destination."
             </Typography>
-            <Typography variant="subttile2" align="right">
+            <Typography variant="subtitle2" align="right">
               -Brandon Sanderson
             </Typography>
           </Grid>
