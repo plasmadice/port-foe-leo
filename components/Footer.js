@@ -30,6 +30,10 @@ const useStyles = makeStyles((theme) => ({
   },
   textContainer: {
     color: "#ebebeb",
+    padding: "0 10px",
+    [theme.breakpoints.only("xs")]: {
+      marginTop: "1rem",
+    },
   },
   email: {
     textDecoration: "none",
@@ -63,7 +67,8 @@ const Footer = () => {
         <Grid
           container
           item
-          xs={6}
+          xs={12}
+          sm={6}
           justify="center"
           alignContent="center"
           spacing={2}
@@ -105,7 +110,8 @@ const Footer = () => {
         <Grid
           container
           item
-          xs={6}
+          xs={12}
+          sm={6}
           justify="center"
           className={classes.textContainer}
           spacing={2}
@@ -114,11 +120,11 @@ const Footer = () => {
             <Logo height={60} />
           </Grid>
           <Grid item container xs={12} justify="center">
-            <Typography variant="h6">
+            <Typography variant="h6" align="center">
               Living, learning, & leveling up one day at a time.
             </Typography>
           </Grid>
-          <Grid item container xs={3} justify="space-around">
+          <Grid item container xs={3} justify="space-around" wrap="nowrap">
             <IconButton
               aria-label="github profile"
               size="small"

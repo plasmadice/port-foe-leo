@@ -51,7 +51,7 @@ const skills = [
     devTools: [
       "Android Studio",
       "IntelliJ tools",
-      "Visua Studio",
+      "Visual Studio",
       "Adobe Suite (Photoshop, Animate, etc)",
     ],
   },
