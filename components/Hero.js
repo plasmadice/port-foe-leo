@@ -65,6 +65,9 @@ const Hero = () => {
         className={classes.root}
       >
         <Grid item xs={12} className={classes.heroTextContainer}>
+          <Typography variant="h2" gutterBottom className={classes.heroText}>
+            Herman White
+          </Typography>
           <Typography variant="h3" className={classes.heroText}>
             Front-end Developer
           </Typography>
