@@ -189,7 +189,7 @@ const Projects = () => {
   }, [projects]);
 
   return (
-    <Container maxWidth={false} className={classes.projectContainer}>
+    <Container maxWidth={false} className={classes.projectContainer} id="work">
       <div className={classes.text}>
         <Typography variant="h3">My Recent Work</Typography>
         <Typography variant="subtitle1">

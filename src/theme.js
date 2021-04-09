@@ -9,9 +9,6 @@ const theme = createMuiTheme({
     secondary: {
       main: "#317ae1",
     },
-    // background: {
-    //   default: theme.palette.grey[100],
-    // },
   },
   typography: {
     fontFamily: `"Poppins", "Roboto", "Helvetica", "Arial"`,

@@ -11,7 +11,6 @@ const useStyles = makeStyles((theme) => ({
     left: 0,
     right: 0,
     padding: "20px 0",
-    // textAlign: "center",
     "& a": {
       textDecoration: "none",
     },
@@ -30,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   },
   item: {
     minWidth: "84px",
-    marginLeft: "5px",
+    marginLeft: "8px",
   },
 }));
 
@@ -52,7 +51,7 @@ const Header = () => {
             color="secondary"
             size="medium"
             className={classes.item}
-            href="/"
+            href="#work"
           >
             Works
           </Button>
@@ -60,7 +59,7 @@ const Header = () => {
             color="secondary"
             size="medium"
             className={classes.item}
-            href="/"
+            href="#contact"
           >
             Contact
           </Button>
@@ -69,7 +68,8 @@ const Header = () => {
             size="medium"
             variant="outlined"
             className={classes.item}
-            href="/"
+            href="https://www.linkedin.com/in/herman-white/"
+            target="_blank"
           >
             Hire me!
           </Button>
