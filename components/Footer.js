@@ -94,7 +94,7 @@ const Footer = () => {
               phoenixquint@gmail.com
             </Typography>
           </Grid>
-          <Grid
+          {/* <Grid
             item
             container
             xs={12}
@@ -105,7 +105,7 @@ const Footer = () => {
               Phone#
             </Typography>
             <Typography variant="h6">555-555-5555</Typography>
-          </Grid>
+          </Grid> */}
         </Grid>
         <Grid
           container

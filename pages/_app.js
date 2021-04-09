@@ -30,7 +30,11 @@ export default function MyApp(props) {
         />
       </Head>
       <Scrollbars
-        style={{ width: "100vw", height: "100vh", background: "#ebebeb" }}
+        style={{
+          width: "100vw",
+          height: "100vh",
+          background: "#ebebeb",
+        }}
         renderThumbVertical={renderThumb}
         universal={true}
       >
