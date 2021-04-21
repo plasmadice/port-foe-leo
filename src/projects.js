@@ -3,7 +3,7 @@ const projects = [
     id: 0,
     title: "LazyAnime",
     img: "lazyanime.png",
-    color: "#007c82",
+    color: "#00747A",
     description:
       "Navigate FTP servers in the browser. Who asked for this? I asked for this.",
     spark:
@@ -19,7 +19,7 @@ const projects = [
     id: 1,
     title: "Butterscotch Taco",
     img: "butterscotchtaco.png",
-    color: "#b25f2f",
+    color: "#A94E19",
     description:
       "Frontend for TheMovieDatabase API. Could use a new coat of paint.",
     spark:
