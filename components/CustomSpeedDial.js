@@ -41,7 +41,6 @@ const CustomSpeedDial = () => {
 
   const handleClick = (e, page) => {
     e.preventDefault();
-    console.log(page);
     window.location = `${page}`;
   };
 
