@@ -36,6 +36,7 @@ export default function MyApp(props) {
           property="og:title"
           content="Herman White | Front-end Developer"
         />
+        <meta property="description" content="Front-end Developer" />
         <meta property="og:description" content="Front-end Developer" />
         <meta property="og:image" content="https://i.imgur.com/mgVM8C6.jpg" />
         <meta
