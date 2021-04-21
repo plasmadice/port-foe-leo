@@ -80,6 +80,9 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     marginBottom: "20px",
   },
+  subtitle: {
+    fontSize: "1rem",
+  },
 }));
 
 const Project = ({ item }) => {
@@ -126,6 +129,7 @@ const Project = ({ item }) => {
               <Typography
                 variant="subtitle2"
                 color="textSecondary"
+                variantMapping={{ subtitle2: "h4" }}
                 className={classes.spark}
               >
                 {spark}
@@ -140,7 +144,6 @@ const Project = ({ item }) => {
                 rel="noopener"
                 target="_blank"
                 variant="contained"
-                // style={{ color: color }}
                 startIcon={<LinkIcon />}
               >
                 Live Site
@@ -153,7 +156,6 @@ const Project = ({ item }) => {
                 rel="noopener"
                 target="_blank"
                 variant="contained"
-                // style={{ color: color }}
                 startIcon={<GitHubIcon />}
               >
                 Frontend
@@ -166,7 +168,6 @@ const Project = ({ item }) => {
                 rel="noopener"
                 target="_blank"
                 variant="contained"
-                // style={{ color: color }}
                 startIcon={<GitHubIcon />}
               >
                 Backend
@@ -195,7 +196,7 @@ const Projects = () => {
     <Container maxWidth={false} className={classes.projectContainer} id="work">
       <div className={classes.text}>
         <Typography variant="h3">My Recent Work</Typography>
-        <Typography variant="subtitle1">
+        <Typography variant="h4" className={classes.subtitle}>
           Here are a few recent design projects.
         </Typography>
       </div>

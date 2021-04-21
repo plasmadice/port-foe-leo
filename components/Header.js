@@ -40,7 +40,7 @@ const Header = () => {
       <Grid container wrap="nowrap">
         <Grid item xs={6}>
           <Link href="https://hwhite.dev/">
-            <a>
+            <a aria-label="Herman White personal logo">
               <Logo height={60} />
             </a>
           </Link>
