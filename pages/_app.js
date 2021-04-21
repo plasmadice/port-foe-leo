@@ -36,7 +36,7 @@ export default function MyApp(props) {
           property="og:title"
           content="Herman White | Front-end Developer"
         />
-        <meta property="description" content="Front-end Developer" />
+        <meta name="description" content="Front-end Developer" />
         <meta property="og:description" content="Front-end Developer" />
         <meta property="og:image" content="https://i.imgur.com/mgVM8C6.jpg" />
         <meta
@@ -52,6 +52,10 @@ export default function MyApp(props) {
           content="Character from Among Us game floating in space with text: Line 31 was not a Bug. 14 Bugs remain"
         />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Herman White | Your New Favorite Human"
+        />
         <meta name="twitter:site" content="@Hermantastic" />
         <meta name="twitter:creator" content="@Hermantastic" />
       </Head>
