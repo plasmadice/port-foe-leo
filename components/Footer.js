@@ -129,6 +129,7 @@ const Footer = () => {
               aria-label="github profile"
               size="small"
               href="https://github.com/plasmadice"
+              rel="noopener"
               target="_blank"
             >
               <GitHubIcon fontSize="large" color="secondary" />
@@ -137,6 +138,7 @@ const Footer = () => {
               aria-label="linkedin profile"
               size="small"
               href="https://www.linkedin.com/in/herman-white/"
+              rel="noopener"
               target="_blank"
             >
               <LinkedInIcon fontSize="large" color="secondary" />
@@ -145,6 +147,7 @@ const Footer = () => {
               aria-label="email address"
               size="small"
               href="mailto:phoenixquint@gmail.com"
+              rel="noopener"
               target="_blank"
             >
               <EmailIcon fontSize="large" color="secondary" />

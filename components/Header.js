@@ -68,6 +68,7 @@ const Header = () => {
             variant="outlined"
             className={classes.item}
             href="https://www.linkedin.com/in/herman-white/"
+            rel="noopener"
             target="_blank"
           >
             Hire me!

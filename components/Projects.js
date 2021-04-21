@@ -137,6 +137,7 @@ const Project = ({ item }) => {
               <Button
                 size="small"
                 href={links.liveSite}
+                rel="noopener"
                 target="_blank"
                 variant="contained"
                 style={{ color: color }}
@@ -149,6 +150,7 @@ const Project = ({ item }) => {
               <Button
                 size="small"
                 href={links.githubFrontend}
+                rel="noopener"
                 target="_blank"
                 variant="contained"
                 style={{ color: color }}
@@ -161,6 +163,7 @@ const Project = ({ item }) => {
               <Button
                 size="small"
                 href={links.githubBackend}
+                rel="noopener"
                 target="_blank"
                 variant="contained"
                 style={{ color: color }}
