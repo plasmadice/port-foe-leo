@@ -140,7 +140,7 @@ const Project = ({ item }) => {
                 rel="noopener"
                 target="_blank"
                 variant="contained"
-                style={{ color: color }}
+                // style={{ color: color }}
                 startIcon={<LinkIcon />}
               >
                 Live Site
@@ -153,7 +153,7 @@ const Project = ({ item }) => {
                 rel="noopener"
                 target="_blank"
                 variant="contained"
-                style={{ color: color }}
+                // style={{ color: color }}
                 startIcon={<GitHubIcon />}
               >
                 Frontend
@@ -166,7 +166,7 @@ const Project = ({ item }) => {
                 rel="noopener"
                 target="_blank"
                 variant="contained"
-                style={{ color: color }}
+                // style={{ color: color }}
                 startIcon={<GitHubIcon />}
               >
                 Backend
