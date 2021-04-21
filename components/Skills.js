@@ -30,6 +30,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     marginBottom: "1rem",
     fontWeight: "800",
+    fontSize: "1.25rem",
   },
   text: {
     marginBottom: "3rem",
@@ -103,7 +104,7 @@ const Skill = ({ item }) => {
     >
       <DynamicIcon className={classes.dynamicIcon} color="primary" />
 
-      <Typography variant="h6" gutterBottom className={classes.title}>
+      <Typography variant="h2" gutterBottom className={classes.title}>
         {title}
       </Typography>
 

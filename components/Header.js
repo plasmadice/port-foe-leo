@@ -39,7 +39,7 @@ const Header = () => {
     <Container fixed className={classes.root}>
       <Grid container wrap="nowrap">
         <Grid item xs={6}>
-          <Link href="/">
+          <Link href="https://hwhite.dev/">
             <a>
               <Logo height={60} />
             </a>
