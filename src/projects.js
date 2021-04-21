@@ -18,7 +18,7 @@ const projects = [
   {
     id: 1,
     title: "Butterscotch Taco",
-    img: "butterscotchtaco.png",
+    img: "butterscotchtaco.jpg",
     color: "#A94E19",
     description:
       "Frontend for TheMovieDatabase API. Could use a new coat of paint.",
