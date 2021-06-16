@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 0,
-    title: "LazyAnime",
+    title: "LazyFTP",
     img: "lazyanime.png",
     color: "#00747A",
     description:
@@ -10,9 +10,9 @@ const projects = [
       "'None of my friends understand FTP but all of them want to use it.'",
     stack: ["React, Express, Gatsby, Netlify"],
     links: {
-      githubFrontend: "https://github.com/plasmadice/lazy-ftp",
-      githubBackend: "https://github.com/plasmadice/lazyanime-backend",
-      liveSite: "https://lazyanime.com/",
+      githubFrontend: "https://github.com/plasmadice/lazyftp",
+      githubBackend: "https://github.com/plasmadice/lazyftp-backend",
+      liveSite: "https://lazyftp.com/",
     },
   },
   {
