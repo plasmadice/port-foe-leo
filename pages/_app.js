@@ -22,7 +22,7 @@ export default function MyApp(props) {
   return (
     <>
       <Head>
-        <title>Herman White | Front-end Developer</title>
+        <title>Herman White | Software Engineer</title>
         <meta name="theme-color" content={theme.palette.primary.main} />
         <meta
           name="viewport"

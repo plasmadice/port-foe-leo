@@ -32,17 +32,14 @@ const Greeting = () => {
           variant="h4"
           className={classes.invertedText}
         >
-          Hi, I’m Herman. Nice to meet you.
+          {"Hi, I’m Herman. Nice to meet you."}
         </Typography>
         <Typography
           variant="body1"
           component="div"
           className={classes.invertedSubText}
         >
-          I'm an experienced front-end developer based in Florida. I have worked
-          with start-ups and DoD companies helping them write efficient code for
-          their websites and applications using modern HTML, CSS, and
-          JavaScript.
+          {"I'm an experienced software engineer based in Florida. I have worked with start-ups and DoD and non-profits. Solving everyone's issues using modern code and tools is the dream. Let's build tomorrow... together!"}
         </Typography>
       </Container>
     </div>

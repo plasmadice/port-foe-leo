@@ -66,13 +66,13 @@ const Hero = () => {
       >
         <Grid item xs={12} className={classes.heroTextContainer}>
           <Typography variant="h2" gutterBottom className={classes.heroText}>
-            Herman White
+            {"Herman White"}
           </Typography>
           <Typography variant="h3" className={classes.heroText}>
-            Front-end Developer
+            {"Software Engineer"}
           </Typography>
           <h2 className={classes.heroSubtitle}>
-            I make stuff, and love doing it.
+            {"I love making stuff and figuring things out"}
           </h2>
         </Grid>
         <Grid item xs={12}>
