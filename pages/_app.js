@@ -5,7 +5,6 @@ import { Scrollbars } from "react-custom-scrollbars";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { ThemeProvider } from "@material-ui/core";
 import theme from "../src/theme";
-import Logo from "../components/logo";
 
 import "@fontsource/poppins";
 
@@ -34,10 +33,10 @@ export default function MyApp(props) {
         {/* general meta tags */}
         <meta
           property="og:title"
-          content="Herman White | Front-end Developer"
+          content="Herman White | Software Engineer"
         />
-        <meta name="description" content="Front-end Developer" />
-        <meta property="og:description" content="Front-end Developer" />
+        <meta name="description" content="Software Engineer" />
+        <meta property="og:description" content="Software Engineer" />
         <meta property="og:image" content="https://i.imgur.com/mgVM8C6.jpg" />
         <meta
           name="og:image:alt"
