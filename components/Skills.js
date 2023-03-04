@@ -97,7 +97,6 @@ const Skill = ({ item }) => {
       direction="column"
       wrap="nowrap"
       align="center"
-      item
       xs={12}
       md={6}
       className={classes.skillItem}

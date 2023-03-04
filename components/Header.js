@@ -39,10 +39,8 @@ const Header = () => {
     <Container fixed className={classes.root}>
       <Grid container wrap="nowrap">
         <Grid item xs={6}>
-          <Link href="https://hwhite.dev/">
-            <a aria-label="Herman White personal logo">
-              <Logo height={60} />
-            </a>
+          <Link aria-label="Herman White personal logo" href="https://hwhite.dev/">
+            <Logo height={60} />
           </Link>
         </Grid>
         <Grid container alignContent="center" justify="flex-end" item xs={6}>

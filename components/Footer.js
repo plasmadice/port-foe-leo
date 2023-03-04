@@ -56,11 +56,10 @@ const Footer = () => {
             alignContent="center"
           >
             <Typography variant="h5" align="center">
-              “Life before death, strength before weakness, journey before
-              destination."
+              {"Programming is easy, like riding a bike. Except the bike is on fire and you're on fire and everything is on fire and you're in hell."}
             </Typography>
             <Typography variant="subtitle2" align="right">
-              -Brandon Sanderson
+              {"-Unknown"}
             </Typography>
           </Grid>
         </Grid>

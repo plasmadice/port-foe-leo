@@ -45,19 +45,6 @@ export default function MyApp(props) {
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:url" content="https://hwhite.dev/" />
-
-        {/* twitter specific */}
-        <meta
-          name="twitter:image:alt"
-          content="Character from Among Us game floating in space with text: Line 31 was not a Bug. 14 Bugs remain"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Herman White | Your New Favorite Human"
-        />
-        <meta name="twitter:site" content="@Hermantastic" />
-        <meta name="twitter:creator" content="@Hermantastic" />
       </Head>
       <Scrollbars
         style={{

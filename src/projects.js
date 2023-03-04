@@ -1,34 +1,33 @@
 const projects = [
   {
     id: 0,
+    title: "Seemail",
+    img: "seemail.png",
+    color: "#152a38",
+    description:
+      "Automated login and pin entering process using Puppeteer",
+    spark:
+      "'Extremely popular with my pirate friends.'",
+    stack: ["TypeScript, Puppeteer, Next 13, Vercel"],
+    links: {
+      githubFrontend: "https://github.com/plasmadice/seemail",
+      liveSite: "https://www.seemail.dev/",
+    },
+  },
+  {
+    id: 1,
     title: "LazyFTP",
     img: "lazyanime.png",
     color: "#00747A",
     description:
       "Navigate FTP servers in the browser. Who asked for this? I asked for this.",
     spark:
-      "'None of my friends understand FTP but all of them want to use it.'",
+      "'None of my friends understand FTP but all of them want to use it for anime.'",
     stack: ["React, Express, Gatsby, Netlify"],
     links: {
       githubFrontend: "https://github.com/plasmadice/lazyftp",
       githubBackend: "https://github.com/plasmadice/lazyftp-backend",
       liveSite: "https://lazyftp.com/",
-    },
-  },
-  {
-    id: 1,
-    title: "Butterscotch Taco",
-    img: "butterscotchtaco.jpg",
-    color: "#A94E19",
-    description:
-      "Frontend for TheMovieDatabase API. Could use a new coat of paint.",
-    spark:
-      "'I wonder if I can make a movie filter that I don't hate.' (spoiler: I failed)",
-    stack: ["React, Firebase, Firestore"],
-    links: {
-      githubFrontend: "https://github.com/plasmadice/butterscotch-taco",
-      githubBackend: null,
-      liveSite: "http://butterscotchtaco.com/",
     },
   },
   {
@@ -39,7 +38,7 @@ const projects = [
     description:
       "GraphQL interface for MongoDB database designed to hold Magic The Gathering cards.",
     spark:
-      "'GraphQL is awesome on the frontend. I wonder how it is on the backend.'",
+      "'Remnants of the time I fought GraphQL. Not sure who won.'",
     stack: ["GraphQL, Fastify, MongoDB, Apollo"],
     links: {
       githubFrontend: null,
