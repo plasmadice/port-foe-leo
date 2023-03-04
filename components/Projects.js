@@ -197,7 +197,7 @@ const Projects = () => {
       <div className={classes.text}>
         <Typography variant="h3">My Recent Work</Typography>
         <Typography variant="h4" className={classes.subtitle}>
-          Here are a few recent-ish design projects.
+          {"Here are a few recent-ish projects"}
         </Typography>
       </div>
       <Grid container className={classes.root}>
