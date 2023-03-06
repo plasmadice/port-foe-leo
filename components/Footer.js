@@ -86,11 +86,11 @@ const Footer = () => {
             <Typography
               variant="h6"
               component="a"
-              href="mailto:phoenixquint@gmail.com"
+              href="mailto:herman.white.third@gmail.com"
               target="_blank"
               className={classes.email}
             >
-              phoenixquint@gmail.com
+              herman.white.third@gmail.com
             </Typography>
           </Grid>
           {/* <Grid
@@ -145,7 +145,7 @@ const Footer = () => {
             <IconButton
               aria-label="email address"
               size="small"
-              href="mailto:phoenixquint@gmail.com"
+              href="mailto:herman.white.third@gmail.com"
               rel="noopener"
               target="_blank"
             >
