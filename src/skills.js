@@ -1,7 +1,7 @@
 const skills = [
   {
     id: 0,
-    title: "Front-end Developer",
+    title: "Web Dev skills",
     icon: "Web",
     statement:
       "I love the web and enjoy bringing ideas to life in the browser.",
@@ -17,14 +17,13 @@ const skills = [
   },
   {
     id: 1,
-    title: "Full-Stack Developer",
+    title: "Backend skills",
     icon: "ViewQuilt",
     statement:
-      "I have the raw skills needed to build and launch a full scale interactive web application.",
+      "I have the raw skills needed to build and launch a fancy application.",
     languages: ["TypeScript, Javascript, JAM Stack, MERN Stack"],
     devTools: [
       "HTTP, HTTPS, APIs",
-      "Next 13",
       "Vercel",
       "GraphQL",
       "MongoDB",
