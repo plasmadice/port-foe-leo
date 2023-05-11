@@ -56,7 +56,7 @@ const Footer = () => {
             alignContent="center"
           >
             <Typography variant="h5" align="center">
-              {"Programming is easy, like riding a bike. Except the bike is on fire and you're on fire and everything is on fire and you're in hell."}
+              {"In the kitchen of innovation, programming is the essential spice, giving flavor to the mundane, turning raw data into a feast for the mind."}
             </Typography>
             <Typography variant="subtitle2" align="right">
               {"-Unknown"}

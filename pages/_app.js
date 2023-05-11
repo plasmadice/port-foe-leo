@@ -50,6 +50,7 @@ export default function MyApp(props) {
           width: "100vw",
           height: "100vh",
           background: "#ebebeb",
+          overflowX: "hidden",
         }}
         renderThumbVertical={renderThumb}
         universal={true}
