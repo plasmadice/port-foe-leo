@@ -1,7 +1,9 @@
-import React, { useState } from "react";
-import { makeStyles, Grid, Button, Container } from "@material-ui/core";
-import Link from "next/link";
-import Logo from "./logo";
+import React, { useState } from "react"
+import { makeStyles, Grid, Button, Container } from "@material-ui/core"
+import Link from "next/link"
+import Logo from "./logo"
+import WebIcon from "@mui/icons-material/Web"
+
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
@@ -30,20 +32,32 @@ const useStyles = makeStyles((theme) => ({
     minWidth: "84px",
     marginLeft: "8px",
   },
-}));
+}))
 
 const Header = () => {
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
     <Container fixed className={classes.root}>
       <Grid container wrap="nowrap">
         <Grid item xs={6}>
-          <Link aria-label="Herman White personal logo" href="https://hwhite.dev/">
+          <Link
+            aria-label="Herman White personal logo"
+            href="https://hwhite.dev/"
+          >
             <Logo height={60} />
           </Link>
         </Grid>
         <Grid container alignContent="center" justify="flex-end" item xs={6}>
+          <Button
+            startIcon={<WebIcon />}
+            color="secondary"
+            size="medium"
+            className={classes.item}
+            href="https://hwhite.dev/"
+          >
+            New Portfolio
+          </Button>
           <Button
             color="secondary"
             size="medium"
@@ -51,14 +65,6 @@ const Header = () => {
             href="#work"
           >
             Works
-          </Button>
-          <Button
-            color="secondary"
-            size="medium"
-            className={classes.item}
-            href="#contact"
-          >
-            Contact
           </Button>
           <Button
             color="primary"
@@ -74,7 +80,7 @@ const Header = () => {
         </Grid>
       </Grid>
     </Container>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

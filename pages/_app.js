@@ -18,6 +18,14 @@ export default function MyApp(props) {
     };
     return <div style={{ ...style, ...thumbStyle }} {...props} />;
   };
+  
+  const hideThumb = ({ style, props }) => {
+    const thumbStyle = {
+      borderRadius: 6,
+      backgroundColor: "rgba(35, 49, 86, 0.8)",
+    };
+    return <></>;
+  };
 
   return (
     <>
@@ -47,10 +55,9 @@ export default function MyApp(props) {
       </Head>
       <Scrollbars
         style={{
-          width: "100vw",
+          width: "100%",
           height: "100vh",
           background: "#ebebeb",
-          overflowX: "hidden",
         }}
         renderThumbVertical={renderThumb}
         universal={true}

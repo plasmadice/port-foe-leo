@@ -78,7 +78,6 @@ const Footer = () => {
             xs={12}
             justify="center"
             className={classes.textContainer}
-            id="contact"
           >
             <Typography variant="h5" className={classes.boldText}>
               Email:
